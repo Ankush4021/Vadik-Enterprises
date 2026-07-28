@@ -1,0 +1,70 @@
+@import "tailwindcss";
+
+:root {
+  /* Brand */
+  --primary: #155eef;
+  --primary-hover: #1150d7;
+
+  /* Background */
+  --background: #ffffff;
+  --background-soft: #f8fafc;
+
+  /* Text */
+  --heading: #101828;
+  --text: #475467;
+  --muted: #667085;
+
+  /* UI */
+  --border: #eaecf0;
+
+  /* Font */
+  --font-primary: "Inter", sans-serif;
+
+  /* Layout */
+  --container: 1280px;
+
+    /* fallback before JS measures actual navbar height */
+  --header-height: 120px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--background);
+  color: var(--text);
+  font-family: var(--font-primary);
+  -webkit-font-smoothing: antialiased;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: var(--heading);
+}
+
+@keyframes marquee {
+  from {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-50%);
+  }
+}
+
+.animate-marquee {
+  animation: marquee 25s linear infinite;
+}
+
+.animate-marquee:hover {
+  animation-play-state: paused;
+}
