@@ -11,6 +11,7 @@ import Clients from "./pages/Clients";
 import Contact from "./pages/Contact";
 import TestimonialsSection from "./components/layout/Testimonial";
 import ScrollToTop from "./components/layout/ScrollToTop";
+import WhatsAppButton from "./components/layout/WhatsAppButton";
 
 function App() {
   const location = useLocation();
@@ -33,6 +34,7 @@ function App() {
 
       <TestimonialsSection />
       <Footer />
+      <WhatsAppButton />
     </>
   );
 }

@@ -1,5 +1,5 @@
 import { motion } from "framer-motion";
-import storyImg from "../../assets/hero/networking.jpg"; // apni koi office/team photo lagado
+import storyImg from "../../assets/hero/aboutSection.jpg"; // apni koi office/team photo lagado
 
 const OurStory = () => {
   return (
@@ -36,7 +36,7 @@ const OurStory = () => {
 
           <div className="mt-5 space-y-4 text-base leading-7 text-[var(--text)]">
             <p>
-              Vadik Enterprises began small — fixing printers and computers
+              Vadik Enterprises began small - fixing printers and computers
               for local businesses that couldn't get a technician to show up
               on time. Word spread fast, not because of marketing, but because
               we actually solved problems and stuck around after the job was
@@ -45,7 +45,7 @@ const OurStory = () => {
             <p>
               Over the years, that grew into full IT support, networking,
               CCTV and everything a modern business needs to run smoothly. But
-              the core hasn't changed — we still show up, we still fix things
+              the core hasn't changed - we still show up, we still fix things
               properly the first time, and we still treat every client like
               they're our only one.
             </p>

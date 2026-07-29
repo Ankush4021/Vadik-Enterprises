@@ -141,10 +141,15 @@ const Footer = () => {
       {/* Bottom bar */}
       <div className="border-t border-white/10">
         <div className="mx-auto flex max-w-[1280px] flex-col items-center justify-between gap-3 px-6 py-5 text-xs sm:flex-row sm:px-10 lg:px-16">
-          <p>© {new Date().getFullYear()} Vadik Enterprises. All rights reserved.</p>
+          <p>© 2026 Vadik Enterprises. All rights reserved.</p>
           <p>
             Designed and Developed by{" "}
-            <span className="font-semibold text-white">Sira Digital</span>
+            <a
+              href="https://siradigital.in"
+              target="_blank"  
+              rel="noopener noreferrer"         
+              className="text-white hover:text-[var(--primary)] font-semibold"
+            >SIRA Digital</a>
           </p>
         </div>
       </div>
